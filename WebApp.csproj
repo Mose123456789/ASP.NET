@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Contact.cshtml" />
+    <Content Remove="Pages\Index.cshtml" />
+    <Content Remove="Pages\Sections\_FooterPartial.cshtml" />
+    <Content Remove="Pages\Sections\_HeaderPartial.cshtml" />
+    <Content Remove="Pages\SignIn.cshtml" />
+    <Content Remove="Pages\SignUp.cshtml" />
+    <Content Remove="Pages\_ViewImports.cshtml" />
+    <Content Remove="Pages\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Pages\Contact.cshtml" />
+    <Compile Include="Pages\Index.cshtml" />
+    <Compile Include="Pages\Sections\_FooterPartial.cshtml" />
+    <Compile Include="Pages\Sections\_HeaderPartial.cshtml" />
+    <Compile Include="Pages\SignIn.cshtml" />
+    <Compile Include="Pages\SignUp.cshtml" />
+    <Compile Include="Pages\_ViewImports.cshtml" />
+    <Compile Include="Pages\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

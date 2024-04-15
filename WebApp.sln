@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp.csproj", "{0DF8E69F-AE93-419B-B72F-CC8400109C03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{121B05E5-D373-4F41-9812-E14126A2BC9A}"
+	ProjectSection(SolutionItems) = preProject
+		Class.cs = Class.cs
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FEB48FB3-B37F-4183-BDAC-74F48C963CEB}"
+	ProjectSection(SolutionItems) = preProject
+		AccountService.cs = AccountService.cs
+		AddressManager.cs = AddressManager.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{144B6FFE-3344-435B-8B15-70675E9586A9}"
+	ProjectSection(SolutionItems) = preProject
+		AddressEntity.cs = AddressEntity.cs
+		UserEntity.cs = UserEntity.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contexts", "Contexts", "{E6F35C79-499D-42CB-8E34-CA1CF922858B}"
+	ProjectSection(SolutionItems) = preProject
+		AppDbContext.cs = AppDbContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF8E69F-AE93-419B-B72F-CC8400109C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF8E69F-AE93-419B-B72F-CC8400109C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF8E69F-AE93-419B-B72F-CC8400109C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF8E69F-AE93-419B-B72F-CC8400109C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEB48FB3-B37F-4183-BDAC-74F48C963CEB} = {121B05E5-D373-4F41-9812-E14126A2BC9A}
+		{144B6FFE-3344-435B-8B15-70675E9586A9} = {121B05E5-D373-4F41-9812-E14126A2BC9A}
+		{E6F35C79-499D-42CB-8E34-CA1CF922858B} = {121B05E5-D373-4F41-9812-E14126A2BC9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E576B862-02F7-434A-8F3E-F779A7A01DEC}
+	EndGlobalSection
+EndGlobal
